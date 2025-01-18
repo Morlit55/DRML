@@ -269,7 +269,7 @@ The bad sectors will cause errors during dumping and might trip up some unprepar
 
 Dummy file which the bad sectors partly overlap. Without it's presence a smartE protected game won't pass a disc check.
 
-#### "ins*.tmp
+#### "ins*.tmp"
 
 The SmartE Protection Stub that performs the Disc Check. It takes on several different names but always start with "ins" and is folowed by between 1-4 random letters/numbers.  
 
