@@ -243,7 +243,7 @@ A packer incorporating technology from Fusion and Crunch from BitArts Labs. Migh
 * A-Ray Scanner[^A-Ray_List]
 * Yara rules[^Yara_List] (Through Detect It Easy)[^DIE]
 
-Note that none of these are 100% reliable. A SmarteSECURE game can otherwise be identified by the presence of 0002.tmp and the SmartE Protection Stub.
+Note the exception of BinaryObjectScanner none of these are 100% reliable. A SmarteSECURE game can otherwise be identified by the presence of 0002.tmp and the SmartE Protection Stub.
 
 [^BOS_List]: [Binary object scanner github page](https://github.com/SabreTools/BinaryObjectScanner)
 [^A-Ray_List]: [Protections detected by A-Ray](https://gbatemp.net/download/a-ray-scanner.37818/)
