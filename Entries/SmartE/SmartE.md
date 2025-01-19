@@ -34,6 +34,7 @@
 	* [Supported Platforms](#supported-platforms) ([Alt.](#Supported%20Platforms))
 	* [Software Known to Detect](#software-known-to-detect) ([Alt.](#Software%20Known%20to%20Detect))
 	* [Preservation Instructions](#preservation-instructions) ([Alt.](#Preservation%20Instructions))
+	* [Compatibility](#Compatibility)
 	* [Associated File Attributes](#associated-file-attributes) ([Alt.](#Associated%20File%20Attributes))
 	* [Known Manufacturing Information](#known-manufacturing-information) ([Alt.](#Known%20Manufacturing%20Information))
 		* [Known Manufacturing Plants](#known-manufacturing-plants) ([Alt.](#Known%20Manufacturing%20Plants))
@@ -42,6 +43,7 @@
 			* [Mastering SID Code](#mastering-sid-code)  ([Alt.](#Mastering%20SID%20Code))
 			* [Toolstamp or Mastering Code](#toolstamp-or-mastering-code)  ([Alt.](#Toolstamp%20or%20Mastering%20Code))
 			* [Mould SID Code](#mould-sid-code)  ([Alt.](#Mould%20SID%20Code))
+    	* [Companies Known to Use](#companies-known-to-use) ([Alt.](#Companies%20Known%20to%20Use))
 * [Reference Material](#reference-material) ([Alt.](#Reference%20Material))
 	* [Media](#media)
 	* [Additional Resources](#additional-resources) ([Alt.](#Additional%20Resources))
@@ -97,7 +99,7 @@
 
 ## Overall Description:
 
-"SmartE" is the common name for a copy protection suite consisting of 8[^SmartE_rundown] (later 4)[^SmartE_rundown2] different components developed by the Texas based company Smarte Solutions[^SmartE_website1][^SmartE_website2] (later calling themselves Vincera, Inc).[^Vincera_website] Out of these 8, the one this article will mostly focus on is called SmarteSECURE, a bad-sector based optical media protection scheme that became famous for being featured in several games published by Microsoft Game Studios between 2003 and 2006[^SmartE_Microsoft_Partnership]. SmarteSECURE itself was also protected by the either the Crunch packer, licensed from BitArts Labs or possibly SmartE's own SmarteLOCK.[^Crunch_and_SmarteLOCK].
+"SmartE" is the common name for a copy protection suite consisting of 8[^SmartE_rundown] (later 4)[^SmartE_rundown2] different components developed by the Texas based company Smarte Solutions[^SmartE_website1][^SmartE_website2] (later calling themselves Vincera, Inc).[^Vincera_website] Out of these 8, the one this article will mostly focus on is called SmarteSECURE, a bad-sector based optical media protection scheme that became famous for being featured in several games published by Microsoft Game Studios between 2003 and 2008[^SmartE_Microsoft_Partnership]. SmarteSECURE itself was also protected by the either the Crunch packer, licensed from BitArts Labs or possibly SmartE's own SmarteLOCK.[^Crunch_and_SmarteLOCK].
 
 [^SmartE_website1]: [Smarte Solutions 2003 website](https://web.archive.org/web/20030810232853/http://www.smartesolutions.com/index.tmpl)
 
@@ -123,11 +125,11 @@
 * 2003-11-11: First known game using SmartE is released. Dungeon Siege: Legends of Aranna from Gas Powered Game.[^DS:LOA_PCGW]
 * 2003-12: SmarteCD, SmartePAY, SmarteKEY and SmarteMEDIA stops being listed on SmartE's website and are possibly discontinued.[^Rundown_December] SmarteKEY would reappear during 2004 though and SmarteMASTER would disappear.[^SmartE_rundown2]  
 * 2004-09-20: Smarte Solutions merges with the also Texas based Vincera Software and takes their name. Becoming Vincera, Inc.[^Smarte_buys_Vincera]
-* 2005-08-16: Last known game using SmartE is released. Dungeon Siege II by Gas Powered Games.[^DS2_PCGW]
-
+* 2007-10-23: Last known game using SmartE is released. Age of Empires III: The Asian Dynasties by Ensemble Studios and Big Huge Games.[^AOE3_PCGW]
+  
 [^DS:LOA_PCGW]: [Dungeon Siege: Legends of Aranna PCGW entry](https://www.pcgamingwiki.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
 
-[^DS2_PCGW]: [Dungeon Siege II PCGW entry](https://www.pcgamingwiki.com/wiki/Dungeon_Siege_II)
+[^AOE3_PCGW]: [Age of Empires III PCGW entry](https://www.pcgamingwiki.com/wiki/Dungeon_Siege_II)
 
 [^Smarte_buys_Vincera]: [Smarte Solutions buys Vincera Software](https://www.siliconindia.com/shownews/vincera-software-acquired-by-smarte-solutions-nid-25513-cid-2.html)
 
@@ -259,6 +261,12 @@ The bad sectors will cause errors during dumping and might trip up some unprepar
 
 [^SmartEDumping]: [Redump guide to dumping SmartE and SafeDisc games](http://wiki.redump.org/index.php?title=IBM_PC:_SafeDisc_/_SmartE_protection)
 
+***
+
+## Compatibility:
+
+Some more overzelous Anti-Virus programs might take issues with the Protection Stub. But beyond general incompability all SmartE games should work on modern Windows. 
+
 *** 
 
 ## Associated File Attributes:
@@ -300,6 +308,13 @@ The SmartE Protection Stub that performs the Disc Check. It takes on several dif
 #### Mould SID Code:
 
 * N/A
+
+***
+
+## Companies Known to Use:
+
+* Microsoft Game Studios
+The only publisher known today for making use of SmartE in their games. Specifically between 2003 and 2008.
 
 ***
 
