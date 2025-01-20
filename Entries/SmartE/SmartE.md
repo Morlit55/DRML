@@ -99,7 +99,7 @@
 
 ## Overall Description:
 
-"SmartE" is the common name for a copy protection suite consisting of 8[^SmartE_rundown] (later 4)[^SmartE_rundown2] different components developed by the Texas based company Smarte Solutions[^SmartE_website1][^SmartE_website2] (later calling themselves Vincera, Inc).[^Vincera_website] Out of these 8, the one this article will mostly focus on is called SmarteSECURE, a bad-sector based optical media protection scheme that became famous for being featured in several games published by Microsoft Game Studios between 2003 and 2008[^SmartE_Microsoft_Partnership]. SmarteSECURE itself was also protected by the either the Crunch packer, licensed from BitArts Labs or possibly SmartE's own SmarteLOCK.[^Crunch_and_SmarteLOCK].
+"SmartE" is the common name for a copy protection suite consisting of 8[^SmartE_rundown] (later 4)[^SmartE_rundown2] different components developed by the Texas based company Smarte Solutions[^SmartE_website1][^SmartE_website2] (later calling themselves Vincera, Inc).[^Vincera_website] Out of these 8, the one this article will mostly focus on is called SmarteSECURE, a bad-sector based optical media protection scheme that became famous for being featured in several games published by Microsoft Game Studios between 2003 and 2008[^SmartE_Microsoft_Partnership]. SmarteSECURE itself was also protected by the either the Crunch packer, licensed from BitArts Labs or possibly SmartE's own SmarteLOCK.[^Crunch_and_SmarteLOCK][^Crunch_Lock].
 
 [^SmartE_website1]: [Smarte Solutions 2003 website](https://web.archive.org/web/20030810232853/http://www.smartesolutions.com/index.tmpl)
 
@@ -113,6 +113,8 @@
 
 [^SmartE_rundown2]: [Rundown of SmartE products on their 2004 website](https://web.archive.org/web/20040816054541/http://www.smartesolutions.com/products/index.shtml)
 
+[^Crunch_Lock]: Crunch is detectable through a BITARTS string present in both the SmartE stub and all known Microsoft game executables. As of time of writing there is no way to differentiate Crunch from SmarteLOCK though and it's possibly that Microsoft switched at some point.
+
 ***
 
 ## Timeline: 
@@ -123,8 +125,8 @@
 * 2003-03: SmarteLOCK is announced. Incorporating the technology of Fusion and Crunch though its unknown if it was also part of the later Microsoft deal.[^Crunch_and_SmarteLOCK]
 * 2003-09-30: Smarte Solutions announces their partnership with Microsoft Game Studios[^SmartE_Microsoft_Partnership]. Licensing both SmarteSECURE and SmarteMASTER.
 * 2003-11-11: First known game using SmartE is released. Dungeon Siege: Legends of Aranna from Gas Powered Game.[^DS:LOA_PCGW]
-* 2003-12: SmarteCD, SmartePAY, SmarteKEY and SmarteMEDIA stops being listed on SmartE's website and are possibly discontinued.[^Rundown_December] SmarteKEY would reappear during 2004 though and SmarteMASTER would disappear.[^SmartE_rundown2]  
-* 2004-09-20: Smarte Solutions merges with the also Texas based Vincera Software and takes their name. Becoming Vincera, Inc.[^Smarte_buys_Vincera]
+* 2003-12: SmarteCD, SmartePAY, SmarteKEY and SmarteMEDIA stops being listed on SmartE's website and are possibly discontinued.[^Rundown_December] SmarteKEY would reappear during 2004 though and SmarteMASTER would disappear in turn.[^SmartE_rundown2]  
+* 2004-09-20: Smarte Solutions merges with the also Texas based Vincera Software and takes their name. Becoming Vincera, Inc.[^Smarte_buys_Vincera] Stops listing the SmartE  protection suite as a product they are offering.[^Vincera_website] 
 * 2007-10-23: Last known game using SmartE is released. Age of Empires III: The Asian Dynasties by Ensemble Studios and Big Huge Games.[^AOE3_PCGW]
   
 [^DS:LOA_PCGW]: [Dungeon Siege: Legends of Aranna PCGW entry](https://www.pcgamingwiki.com/wiki/Dungeon_Siege:_Legends_of_Aranna)
@@ -141,7 +143,7 @@
 
 #### Tested:
 
-* SmarteSECURE 3.0.0.0[^Smartsecure1][^Smartsecure2][^Smartesecure3][^Smartesecure_version]
+* SmarteSECURE 3.0.0.0[^Smartsecure1][^Smartsecure2][^Smartesecure3][^Smartesecure_version][^SmartE_rundown2][^SmartE_rundown]
 
 Only known version of SmarteSECURE used by all known Microsoft Game Studios releases. 10 erroneous sectors is inserted into disc through SmarteMaster in a way so they overlap a file called "0002.tmp", making it unreadable under normal circumstances. Upon launch an executable will be extracted from the game’s main executable (both protected by either Crunch or possible SmarteLOCK) known as the "SmartE Protection Stub" which will attempt to read the portion of 0002.tmp that doesn't overlap any errors. And if successful the game will launch.
 
@@ -151,7 +153,7 @@ Only known version of SmarteSECURE used by all known Microsoft Game Studios rele
 
 [^Smartesecure3]: [SmarteSECURE rundown](https://web.archive.org/web/20030803205235/http://www.smartesolutions.com/solution_detail.tmpl?SKU=310389110330838)
 
-[^Smartesecure_version]: Version taken from the Protection stub
+[^Smartesecure_version]: Version taken from the Protection stub.
 
 * SmarteMASTER[^SmarteMaster]
 
@@ -166,16 +168,16 @@ A program used to create Smarte Master Discs. Licensed to Microsoft alongside Sm
 
 * SmarteCD[^SmartE_rundown]:
 The oldest part of the suite. Believed to be inserting a trigger into a game's code that would eventually stop you from playing if it detected an illegal copy. No examples have been found and discontinued in late 2003. Possibly integrated into SmarteSECURE.
-* SmarteMANAGER[^SmartE_rundown]:
+* SmarteMANAGER[^SmartE_rundown][^SmartE_rundown2]:
 A Licensing management solution. No examples have been found so far.
-* SmarteKEY[^SmartE_rundown]:
+* SmarteKEY[^SmartE_rundown][^SmartE_rundown2]:
 Online activation manager. No examples have been found so far.
 * SmartePAY[^SmartE_rundown]:
 Secure e-payment solution. Discontinued in late 2003
 * SmarteMEDIA[^SmartE_rundown]:
 Protection for recordable CD media. Discontinued in late 2003 and possibly integrated into SmarteSECURE.
-* SmarteLOCK[^SmartE_rundown]:
-A packer incorporating technology from Fusion and Crunch from BitArts Labs. Might have been used in the Microsoft published games but this is uncomfirmed. 
+* SmarteLOCK[^SmartE_rundown][^SmartE_rundown2]:
+A packer incorporating technology from Fusion and Crunch from BitArts Labs. Might have been used in the Microsoft published games but this is uncomfirmed.[^Crunch_Lock] 
 
 ***
 
@@ -245,7 +247,7 @@ A packer incorporating technology from Fusion and Crunch from BitArts Labs. Migh
 * A-Ray Scanner[^A-Ray_List]
 * Yara rules[^Yara_List] (Through Detect It Easy)[^DIE]
 
-Note the exception of BinaryObjectScanner none of these are 100% reliable. A SmarteSECURE game can otherwise be identified by the presence of 0002.tmp and the SmartE Protection Stub.
+Note the exception of BinaryObjectScanner none of these are 100% reliable and might actually be detecting the Crunch packer. A SmarteSECURE game can otherwise be identified by the presence of 0002.tmp and the SmartE Protection Stub.
 
 [^BOS_List]: [Binary object scanner github page](https://github.com/SabreTools/BinaryObjectScanner)
 [^A-Ray_List]: [Protections detected by A-Ray](https://gbatemp.net/download/a-ray-scanner.37818/)
@@ -265,7 +267,9 @@ The bad sectors will cause errors during dumping and might trip up some unprepar
 
 ## Compatibility:
 
-Some more overzelous Anti-Virus programs might take issues with the Protection Stub. But beyond general incompability all SmartE games should work on modern Windows. 
+Some more overzelous Anti-Virus programs might take issues with the Protection Stub. But beyond general incompability all SmartE games should work on modern Windows.[^Testing]
+
+[^Testing]: Determined through testing on native Windows 11. 
 
 *** 
 
