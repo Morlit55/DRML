@@ -237,7 +237,7 @@ Ringed CopyLok meanwhile has to be dumped using LaserLock style methods.[^Ringed
 
 ## Compatibility:
 
-CopyLok will not work on any version of Windows beyond XP and even XP support is limited.[^Spreadsheet] Using a Crack is generally ones only option for running CopyLok games on modern systems.[^Testing]
+CopyLok will not work on any version of Windows beyond XP and even XP support is limited.[^Spreadsheet] Using a crack is generally ones only option for running CopyLok games on modern systems.[^Testing]
 
 *** 
 
