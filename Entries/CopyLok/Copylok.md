@@ -186,14 +186,14 @@ A version of Copylok for CD-R discs. No examples have been found.
 [^37860]: [Sudden Strike](http://redump.org/disc/37860/)
 [^31708]: [Rune](http://redump.org/disc/31557/)
 [^31557]: [4x4 Evo](http://redump.org/disc/44210/)
-[^31675]: [Motocross Mania ](http://redump.org/disc/31675/)
+[^31675]: [Motocross Mania](http://redump.org/disc/31675/)
 [^107930]: [Sheep](http://redump.org/disc/107930/)
-[^72183]: [Jetfighter IV: Fortress America)](http://redump.org/disc/71985/)
-[^71985]: [The Ward)](http://redump.org/disc/72183/)
-[^48360]: [Oni)](http://redump.org/disc/48360/)
-[^38239]: [Cossacks: European Wars)](http://redump.org/disc/38239/)
-[^31674]: [Serious Sam: The First Encounter)](http://redump.org/disc/31674/)
-[^37881]: [Sudden Strike Forever)](http://redump.org/disc/37881/)
+[^72183]: [Jetfighter IV: Fortress America](http://redump.org/disc/71985/)
+[^71985]: [The Ward](http://redump.org/disc/72183/)
+[^48360]: [Oni](http://redump.org/disc/48360/)
+[^38239]: [Cossacks: European Wars](http://redump.org/disc/38239/)
+[^31674]: [Serious Sam: The First Encounter](http://redump.org/disc/31674/)
+[^37881]: [Sudden Strike Forever](http://redump.org/disc/37881/)
 
 
 #### Unconfirmed: 
